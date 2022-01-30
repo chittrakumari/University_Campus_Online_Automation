@@ -6,3 +6,6 @@ def login(request):
 
 def home_page(request):
     return render(request,'homepage.html');
+
+def dashboard(request):
+    return render(request,'dashboard.html');
